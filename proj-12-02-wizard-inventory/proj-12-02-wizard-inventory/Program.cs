@@ -23,8 +23,22 @@ namespace proj_12_02_wizard_inventory {
 
                 switch (command) {
                     case "show":
+                        
+                        break;
+                    case "grab":
 
+                        break;
+                    case "edit":
+
+                        break;
+                    case "drop":
+
+                        break;
+                    case "exit":
+                        Console.WriteLine("Bye!");
+                        break;
                     default:
+                        Console.WriteLine("Invalid command");
                         break;
                     }
                 }
@@ -44,7 +58,7 @@ namespace proj_12_02_wizard_inventory {
         private static void ShowInventory(List<string> inventory) {
             int oneBasedIndex = 1;
 
-            for (String item : inventory) {
+            foreach (String item in inventory) {
                 Console.WriteLine(oneBasedIndex + "." + item);
                 oneBasedIndex++;
                 }
