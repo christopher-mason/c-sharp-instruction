@@ -25,7 +25,7 @@ namespace proj_05_01_dice_roller {
                 Console.WriteLine("Snake Eyes");
                 } else if (dice1 + dice2 == 12) {
                 Console.WriteLine("Box cars!");
-                }
+                } 
             }
         }
     }
