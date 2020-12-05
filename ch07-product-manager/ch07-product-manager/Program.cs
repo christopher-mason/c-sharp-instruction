@@ -1,4 +1,5 @@
 ﻿using ch07_product_manager.business;
+using ch07_product_manager.util;
 using System;
 
 namespace ch07_product_manager {
@@ -15,7 +16,7 @@ namespace ch07_product_manager {
             Product p2 = new Product("java", "Murach's Java Programming", 59.50);
             Console.WriteLine($"p2 = {p2}");
 
-            
+            String str = MyConsole.getString("enter a string");
             
 
             Console.WriteLine("Bye!");
