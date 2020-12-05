@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch11-arrays-demo", "ch11-arrays-demo\ch11-arrays-demo.csproj", "{9E25C5E6-5920-4B6E-B0B6-C9A861A501AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E25C5E6-5920-4B6E-B0B6-C9A861A501AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E25C5E6-5920-4B6E-B0B6-C9A861A501AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E25C5E6-5920-4B6E-B0B6-C9A861A501AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E25C5E6-5920-4B6E-B0B6-C9A861A501AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A1D061F-9FE1-4AAD-9688-C53E8E422809}
+	EndGlobalSection
+EndGlobal
