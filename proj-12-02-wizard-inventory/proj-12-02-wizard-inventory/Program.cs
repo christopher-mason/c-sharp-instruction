@@ -23,7 +23,7 @@ namespace proj_12_02_wizard_inventory {
 
                 switch (command) {
                     case "show":
-                        
+                        ShowInventory(inventory);
                         break;
                     case "grab":
 
