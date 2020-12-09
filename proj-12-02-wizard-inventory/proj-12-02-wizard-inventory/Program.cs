@@ -5,7 +5,7 @@ using proj_12_02_wizard_inventory.ui;
 
 namespace proj_12_02_wizard_inventory {
     class Program {
-        static final int MAX_INVENTORY_SIZE = 4;
+        //static final int MAX_INVENTORY_SIZE = 4;
 
         static void Main(string[] args) {
             Console.WriteLine("The Wizard Inventory game\n");
@@ -65,7 +65,7 @@ namespace proj_12_02_wizard_inventory {
             }
 
         private static void AddItemToInventory(List<String> inventory) {
-            if (inventory >= MAX_INVENTORY_SIZE) {
+            if (inventory. >= 4) {
                 Console.WriteLine("You can't carry any more items. Drop something first");
                 return;
                 }
