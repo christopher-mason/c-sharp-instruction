@@ -29,7 +29,7 @@ namespace proj_12_02_wizard_inventory {
                         AddItemToInventory(inventory);
                         break;
                     case "edit":
-
+                        EditInventory(inventory);
                         break;
                     case "drop":
 
@@ -73,6 +73,20 @@ namespace proj_12_02_wizard_inventory {
             String newItem = MyConsole.getString("Name: ");
             inventory.Add(newItem);
             Console.WriteLine(newItem + " was added.");
+            }
+
+        private static void EditInventory(List<String> inventory) {
+            int oneBasedIndex = MyConsole.getInt("Number: ");
+            int zeroBasedIndex = oneBasedIndex - 1;
+
+            if (zeroBasedIndex < 0 || zeroBasedIndex >= inventory.size()) {
+                Console.WriteLine("Index Invalid");
+                return;
+                }
+
+            String newItemName = MyConsole.getString("Updated name: ");
+            String previousItemName = inventory.set(zeroBasedIndex, newItemName);
+            Console.WriteLine("Replaced " + previousItemName + " with " + newItemName);
             }
 
         }
