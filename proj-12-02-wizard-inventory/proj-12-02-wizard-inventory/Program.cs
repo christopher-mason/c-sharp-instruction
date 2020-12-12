@@ -32,7 +32,7 @@ namespace proj_12_02_wizard_inventory {
                         EditInventory(inventory);
                         break;
                     case "drop":
-
+                        DropItemInventory(inventory);
                         break;
                     case "exit":
                         Console.WriteLine("Bye!");
