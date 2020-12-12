@@ -89,5 +89,18 @@ namespace proj_12_02_wizard_inventory {
             Console.WriteLine("Replaced " + previousItemName + " with " + newItemName);
             }
 
+        private static void DropItemInventory(List<string> inventory) {
+            int oneBasedIndex = MyConsole.getInt("Number: ");
+            int zeroBasedIndex = oneBasedIndex - 1;
+
+            if (zeroBasedIndex < 0 || zeroBasedIndex >= inventory.size()) {
+                Console.WriteLine("Index Invalid");
+                return;
+                }
+
+            String removedItem = inventory.Remove(zeroBasedIndex);
+            Console.WriteLine(removedItem + " was removed.");
+            }
+
         }
     }
